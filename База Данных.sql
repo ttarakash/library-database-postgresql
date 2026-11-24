@@ -1396,11 +1396,11 @@ select * from books_publishers_view;
 
 --17--
 insert into authors (name, country, birthdate)
-values ('Ким Чен Ын','Korea', '1984-01-08');
+values ('Тестовый автор','Таджикистан', '1990-01-01');
 --18--
 update authors
 set name = 'Rumi', country='Persian', birthdate='1273-09-30'
-where name = 'Ким Чен Ын' and country='Korea'and birthdate='1984-01-08';
+where name = 'Тестовый автор' and country='Таджикистан' and birthdate='1990-01-01';
 --19--
 delete from authors
 where name = 'Rumi';
